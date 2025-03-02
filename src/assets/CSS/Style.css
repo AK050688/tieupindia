@@ -1,0 +1,85 @@
+/* header Css start */
+.custom-navbar {
+    width: 100vw; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 10px 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1050;
+}
+
+
+.logo {
+    width: 100px;
+}
+
+
+.menu-toggle {
+    background: none;
+    border: none;
+    font-size: 24px;
+}
+
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100vh;
+    background: white;
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1100;
+}
+
+
+.mobile-menu.show {
+    left: 0;
+}
+
+
+.close-menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    z-index: 1050;
+}
+
+.bottom-nav .nav-link {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
+/* header Css end */
+/* footer css */
+
+.bg-accent {
+    background-color: #290469;
+  }
+  
+  /* footer css end */
+  /* Hero css  */
+  .hero-section img {
+    width: 250px!important;
+    border-radius: 8px;
+  }
+  
+  /* footer css end */
+
